@@ -1,7 +1,3 @@
-# This project was upgraded with external_updater.
-# Usage: tools/external_updater/updater.sh update rust/crates/protobuf
-# For more info, check https://cs.android.com/android/platform/superproject/+/master:tools/external_updater/README.md
-
 name: "protobuf"
 description: "Rust implementation of Google protocol buffers"
 third_party {
@@ -11,13 +7,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/protobuf/protobuf-3.2.0.crate"
+    value: "https://static.crates.io/crates/protobuf/protobuf-2.27.1.crate"
   }
-  version: "3.2.0"
+  version: "2.27.1"
   license_type: NOTICE
   last_upgrade_date {
-    year: 2023
-    month: 4
-    day: 3
+    year: 2022
+    month: 3
+    day: 1
   }
 }
